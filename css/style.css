@@ -1,0 +1,112 @@
+body
+{
+    background-image: url("https://www.hanselman.com/blog/content/binary/WindowsLiveWriter/VisualStudioProgrammerThemesGallery_CF56/image_3.png");
+}
+
+html
+{
+    /*background-color: black;*/
+}
+
+nav
+{
+    background-image: url("https://ak.picdn.net/shutterstock/videos/17600143/thumb/1.jpg");
+    background-color: #000;
+    /*padding: 10px;*/
+}
+
+.navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top .navbar-brand
+{
+    padding-left: 20px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top .navbar-toggler
+{
+    background-color: #FFF; 
+      
+}
+
+.navbar-nav.ml-auto.mt-2.mt-lg-0.navbar-right li a
+{
+    color: #FFF;
+    font-weight: bold;
+}
+
+header h1
+{
+    margin-top: 1.0rem;
+}
+
+#profile-pic
+{
+    border-radius: 50%;
+}
+
+/*.active, div nav ul li a:hover
+{
+    background-color: #666;
+    opacity: 0.8;
+    color: gold;
+    border-radius: 10px;
+}*/
+
+.navbar-nav.ml-auto.mt-2.mt-lg-0.navbar-right .nav-item.active
+{
+    color: gold;
+    background-color: #666;
+    opacity: 0.9;
+    border-radius: 10px;
+}
+
+section
+{
+    padding: 20px 20px 10px 20px;
+    opacity: 0.9;
+}
+
+#projects
+{
+    border: 0px solid black;
+    margin-bottom: 15px;
+}
+
+#projects img
+{
+    width: 100%;
+    min-height: 150px;
+    max-height: 250px;
+
+    border: 1px solid black;
+    margin: 0px;
+    padding: 5px;
+}
+
+#projects img:hover
+{
+    opacity: 0.7;
+}
+
+#skills
+{
+    border: 0px solid black;
+    margin-bottom: 15px;
+}
+
+#skills img
+{
+    width: 100%;
+    min-height: 100px;
+    max-height: 150px;
+    
+    border: 1px solid black;
+    margin: 0px;
+    padding: 0px;
+        border-radius: 10%;
+}
+
+#skills img:hover
+{
+    opacity: 0.7;
+}
