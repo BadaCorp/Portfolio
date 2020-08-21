@@ -1,16 +1,17 @@
 body
 {
-    background-image: url("https://www.hanselman.com/blog/content/binary/WindowsLiveWriter/VisualStudioProgrammerThemesGallery_CF56/image_3.png");
+    background-image: url("https://www.digitaldesignjournal.com/wp-content/uploads/2018/07/Programming-World-Map-Wallpaper.jpg");
+    background-color: #000;
 }
 
 html
 {
-    /*background-color: black;*/
+    /*background-color: #000;*/
 }
 
 nav
 {
-    background-image: url("https://ak.picdn.net/shutterstock/videos/17600143/thumb/1.jpg");
+    background-image: url("https://www.digitaldesignjournal.com/wp-content/uploads/2018/07/Hi-Tech-Wallpapers-For-Desktop-and-Laptops-Wallpaper-Technology-Wallpapers.jpg?ezimgfmt=rs:675x600/rscb12/ng:webp/ngcb12");
     background-color: #000;
     /*padding: 10px;*/
 }
@@ -54,10 +55,14 @@ header h1
 
 .navbar-nav.ml-auto.mt-2.mt-lg-0.navbar-right .nav-item.active
 {
-    color: gold;
     background-color: #666;
     opacity: 0.9;
     border-radius: 10px;
+}
+
+#navbar a:hover
+{
+    color: gold;
 }
 
 section
