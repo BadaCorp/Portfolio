@@ -1,24 +1,19 @@
 body
 {
-    background-image: url("../img/body-background.png");
+    background: url("../img/body-background.png");
     background-color: #000;
     background-repeat: repeat;
     background-position: center center;
-
-    /*-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;*/
 }
 
 @media only screen and (max-width: 959px)
 {
     body
     {
-        background-image: url("../img/body-background.png");
+        background: url("../img/body-background.png");
         background-color: #000;
-        background-repeat: repeat;
+        background-repeat: space;
         background-position: center center;
-        background-size: cover;
     }
 }
 
@@ -29,12 +24,22 @@ html
 
 nav
 {
-    background-color: #000;
-    /*background-image: url("../img/header-background.png");*/
+    background: url("../img/header-background.png") 0 0;
     /*padding: 10px;*/
+    background-size: ;
 }
 
-.navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top .navbar-brand
+@media only screen and (max-width: 959px)
+{
+    nav
+    {
+        background: url("../img/header-background.png") 0 0;
+        /*padding: 10px;*/
+        background-size: cover;
+    }
+}
+
+.navbar.navbar-expand-lg.navbar-dark.bg-dark.fixed-top .navbar-brand
 {
     padding-left: 20px;
     color: #FFF;
