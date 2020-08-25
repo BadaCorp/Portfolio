@@ -2,6 +2,7 @@ body
 {
     background-image: url("../img/body-background.png");
     background-color: #000;
+    z-index:0;
 }
 
 @media only screen and (max-width: 959px) 
