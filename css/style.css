@@ -17,28 +17,6 @@ body
     }
 }
 
-html
-{
-    /*background-color: #000;*/
-}
-
-nav
-{
-    background: url("../img/header-background.png") 0 0;
-    /*padding: 10px;*/
-    background-size: ;
-}
-
-@media only screen and (max-width: 959px)
-{
-    nav
-    {
-        background: url("../img/header-background.png") 0 0;
-        /*padding: 10px;*/
-        background-size: cover;
-    }
-}
-
 .navbar.navbar-expand-lg.navbar-dark.bg-dark.fixed-top .navbar-brand
 {
     padding-left: 20px;
@@ -90,7 +68,7 @@ header h1
 
 section
 {
-    padding: 20px 20px 10px 20px;
+    padding: 10px 20px 10px 20px;
     opacity: 0.9;
 }
 
@@ -137,4 +115,13 @@ section
 #skills img:hover
 {
     opacity: 0.7;
+}
+
+footer
+{
+    width: 100%;
+    color: #FFF;
+    background-color: #000000;
+    opacity: .9;
+    position: absolute;
 }
