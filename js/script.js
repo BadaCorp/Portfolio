@@ -1,3 +1,5 @@
+/* eslint-env jquery */
+
 var nav = document.getElementById("navbar");
 var links = nav.getElementsByClassName("nav-item");
 
@@ -26,19 +28,40 @@ $(function()
     $("#start").html("Go!");
 });*/
 
-	$(function() {
-  	// Add smooth scrolling to all links
-  	$("a").on('click', function(event) {
-    	if (this.hash !== "") {
-      	// Prevent default anchor click behavior
-      	event.preventDefault();
-      	var hash = this.hash;
+$(function() 
+    {
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) 
+        {
+        if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+        var hash = this.hash;
 
-      	$('html, body').animate({
-        	scrollTop: $(hash).offset().top
-      	}, 800, function(){
+        $('html, body').animate({
+        scrollTop: $(hash).offset().top
+        }, 800, function(){
         window.location.hash = hash;
-      	});
-    	} // End if
-  	});
-	});
+        });
+        } // End if
+        });
+    
+
+    /*$("#project .zoom").click(function()
+    {   
+        $(this).css("-webkit-transform", "scale(2.0)");
+        $(this).css("transform", "scale(2.0)");
+        $(this).css("transition", "transform .5s");
+        $(this).css("left", "50%");
+        $(this).css("opacity", "1");
+    });
+    
+    $("#project .zoom").mouseout(function()
+    {
+        $(this).css("transform", "");
+        $(this).css("transition", "");
+        $(this).css("left", "");
+        $(this).css("opacity", "");  
+    });*/
+});
+
